@@ -1,0 +1,34 @@
+.team {
+    padding: 94px 0;
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 10px;
+
+        color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
+
+    &__text {
+        margin-top: 0;
+        margin-bottom: 16px;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: var(--primery-text-color);
+    }
+
+    &__desc {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
